@@ -9,3 +9,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    margin-top: 50px;
+    background-color: lightgrey;
+}
+
+ul li {
+    border: 1px solid gray;
+    margin: 5px 50px;
+    list-style: none;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 95%;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.Counter {
+    font-weight: bold;
+    margin: 5px 50px;
+}
+
+.btn {
+    margin: 5px 50px;
+}
